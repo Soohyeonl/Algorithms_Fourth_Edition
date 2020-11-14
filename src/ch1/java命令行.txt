@@ -1,0 +1,10 @@
+其中调用了MyClass类，那么编译Test类就要注意添加导入jar文件的路径：
+javac -cp D:\myclass.jar Test.java
+接着执行：
+java -classpath D:\myclass.jar;. Test
+输出myclass，bingo！
+
+注：
+
+    编译和执行Test过程中必须指明jar包路径，而不用设置环境变量classpath。如果仅设置classpath是行不通的；
+    jar包不是一层路径，故在Test的调用中直接import进util就可以了。
