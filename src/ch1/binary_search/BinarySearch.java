@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-package ch1;
+package ch1.binary_search;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
